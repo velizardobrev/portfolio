@@ -1,88 +1,99 @@
-/*Stylesheet of Assignment 2*/ 
+/*Stylesheet # of Assignment 2*/
+
 
 /*Base Styles*/
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: comic sans ms, sans-serif;
+    font-family: comic sans ms, sans-serif;
 }
 
 h1 {
-	text-align: center;
-	font-size: 175%;
+    text-align: center;
+    font-size: 175%;
 }
 
 section {
-	margin-bottom: 15px;
-	float: left;
-	font-size: 125%;
+    margin-bottom: 15px;
+    float: left;
+    font-size: 125%;
 }
+
 
 /*Menu names*/
+
 .outer {
-	border: 2px solid black;
-	background-color: lightgrey;
-	margin-left: 10px;
-	margin-right: 10px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.outer > div:nth-child(1) {
-	font-weight: bold;
-	text-align: center;
-	float: right;
-	border: solid black;
-	border-width: 0 0 2px 2px;
-	width: 25%;
-	overflow: auto; /*applies when browsers is narrowed to down to minimal width*/
+.outer>div:nth-child(1) {
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    border: solid black;
+    border-width: 0 0 2px 2px;
+    width: 25%;
+    overflow: auto;
+    /*applies when browsers is narrowed to down to minimal width*/
 }
 
 .inner {
-	clear: right;
-	padding: 0px 15px 0px 15px;
+    clear: right;
+    padding: 0px 15px 0px 15px;
 }
 
 #chicken {
-	background-color: #D59898;
+    background-color: #D59898;
 }
 
 #beef {
-	background-color: #C14543;
-	color: white;
+    background-color: #C14543;
+    color: white;
 }
 
 #sushi {
-	background-color: #E5D198; 	
+    background-color: #E5D198;
 }
+
 
 /***** Media Queries *****/
+
+
 /*Desktop*/
+
 @media (min-width: 992px) {
-	section {
-		width: 33.33%;
-	}
+    section {
+        width: 33.33%;
+    }
 }
+
 
 /*Tablet*/
-@media(min-width: 768px) and (max-width: 991px){
 
-	#first{
-		width: 50%;
-	}
-	#second{
-		width: 50%;
-	}
-	#third{
-		width: 100%;
-	}
-
+@media(min-width: 768px) and (max-width: 991px) {
+    #first {
+        width: 50%;
+    }
+    #second {
+        width: 50%;
+    }
+    #third {
+        width: 100%;
+    }
 }
 
+
 /*Mobile*/
-@media(max-width: 767px){
-	section {
-		width: 100%; /*actually redundant, but left here for clarity*/ 
-	}
+
+@media(max-width: 767px) {
+    section {
+        width: 100%;
+        /*actually redundant, but left here for clarity*/
+    }
 }
