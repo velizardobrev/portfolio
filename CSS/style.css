@@ -7,13 +7,23 @@
     box-sizing: border-box;
 }
 
+a:link {
+    color: gold;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
+
 body {
-    font-family: comic sans ms, sans-serif;
+    font-family: Arial sans ms, sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 175%;
+    background-color: #191970;
+    color: white;
 }
 
 section {
@@ -27,7 +37,8 @@ section {
 
 .outer {
     border: 2px solid black;
-    background-color: lightgrey;
+    background-color: #004176;
+    color: white;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -38,8 +49,8 @@ section {
     float: right;
     border: solid black;
     border-width: 0 0 2px 2px;
-    width: 25%;
-    overflow: auto;
+    width: 40%;
+    overflow: hidden;
     /*applies when browsers is narrowed to down to minimal width*/
 }
 
@@ -48,11 +59,12 @@ section {
     padding: 0px 15px 0px 15px;
 }
 
-#chicken {
-    background-color: #D59898;
+#game {
+    background-color: gold;
+    color: black;
 }
 
-#beef {
+#searching {
     background-color: #C14543;
     color: white;
 }
