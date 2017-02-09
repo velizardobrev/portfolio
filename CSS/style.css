@@ -12,7 +12,7 @@ a:link {
 }
 
 a:visited {
-    color: darkgoldenrod;
+    color:gold;
 }
 
 body {
@@ -72,6 +72,11 @@ section {
 #bootstrap1 {
     background-color: orange ;
 }
+#game2 {
+    background-color: red ;
+    color: black;
+}
+
 
 
 /***** Media Queries *****/
